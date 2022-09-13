@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* border: solid 2px black; */
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* body{
+    border: solid 5px red;
+    width: 100vw;
+} */
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* opacity: 0.7; */
+    /* z-index: -1; */
+    position: absolute;
+    position: fixed;
+    width: 100vw;
+    /* height:100%;     */
+    top: 0px;
+}
+
+/* Navbar: Logo */
+#logo{
+    /* padding: 10px; */
+    height: 70px;
+    width: 70px;
+    /* margin-right: 40px; */
+    margin: 10px 20px;
+}
+
+/* Navbar: Img */
+#logo img{
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* Navbar List */
+#navbar ul{
+    display: flex;
+    /* width: 100%; */
+}
+
+/* Navbar list items */
+.item{
+    list-style: none;
+    /* margin: auto 20px; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* .item:o */
+
+/*Anchor tag in Navbar List items*/
+.item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;  
+    /* padding: 8px 22px;  */
+    padding: 1.5rem;
+    border-radius: 20px; 
+}
+
+.item a:hover{
+    background-color: white;
+    color: black; 
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    height: 100%;
+    /* width: 100vw; */
+    background-image: url('../bg1.jpg');
+    background-size:cover;
+    background-position: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-top: 1rem; */
+    /* padding-top: 35px; */
+    color: white;
+}
+
+#home p{
+    margin: 30px 10px;
+    color: white;
+    font-size: 1.6rem;
+    /* text-align: center; */
+    align-items: center;
+    padding: 10px;
+}
+
+#home button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* height: 30px; */
+    /* width: 90px; */
+    border-radius: 10px;
+    border: 0px;
+    font-size: 1.5rem;
+    padding: 15px;
+    opacity: 0.83;
+    /* margin-top: 20px; */
+}
+#home button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#services{
+    margin-top: 100px;
+}
+
+.h-primary-home{
+    font-size: 3.8rem;
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    text-align: center;
+    margin-top: 1rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem;
+    /* width: 100%; */ */
+}
+
+.h-secondary{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.services-div{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.services-div .box{
+    border: solid 2px black;
+    margin: 55px;
+    /* flex: 1; */
+    /* height: 450px;  */
+    width: 80%; 
+    justify-content: center;
+    text-align: center;  
+    padding: 50px 50px 70px 50px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 20px;
+    /* text-overflow: ellipsis; */
+}
+
+.services-div .box h2{
+    margin-top: 30px;
+}
+
+.services-div .box img{
+    height: 160px;
+    justify-content: center;
+}
+
+#clients{
+    margin-top: 50px;
+    background-image: url('../bg.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.886);
+    /* background-blend-mode: lighten; */
+}
+
+.clients-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clients-div .box{
+    /* height: 10px; */
+    margin: 15px;
+    /* border: 2px solid red; */
+}
+
+.clients-div .box img{
+    height: 110px;
+    margin: 20px 60px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+
+#contact{
+    background-image: url('../contact.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.286);
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    /* padding: 34px; */
+    width: 80%;
+    /* border: solid red 2px; */
+    margin: 0px 10px 10px 10px;
+}
+
+.contact-div input, .contact-div textarea{
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+    border: solid black 1px;
+} 
+
+#btn{
+    /* margin: 5px auto; */
+    text-align: center;
+}
+
+#btn button{
+    width: 70px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+#btn button:hover{
+    background-color: black;
+    color: white;
+}

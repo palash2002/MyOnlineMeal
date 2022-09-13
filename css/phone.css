@@ -1,0 +1,143 @@
+*{
+    /* border: solid 2px black; */
+    /* width: 100%; */
+}
+
+/* section{
+    width:max-content;
+} */
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.box{
+    object-fit: contain;
+    max-width: 100% ;
+}
+
+.services-div .box img{
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.clients-div .box img{
+    object-fit: contain;
+    max-width: 100%;
+    /* height: 110px; */
+    margin: 15px 5px;
+}
+
+/* .clients-div .box img{ */
+    /* height: 110px;
+    margin: 20px 10px;
+} */
+
+/* Navigation */
+.toggle-button {
+    display: none;
+    position: absolute;
+    top: 2.1rem;
+    right: 2.1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background-color: rgba(0, 0, 0, 0 );
+    /* z-index: 3; */
+    /* border: none; */
+    /* text-decoration: none; */
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    /* margin: 3px; */
+}
+
+@media (max-width: 800px){
+    .toggle-button{
+        display: flex;
+    }
+
+    #navbar ul{
+        display: none;
+    }
+}
+
+/* Home */
+#home{
+    display: flex;
+    height: 100%;
+    /* width: 100vw; */
+    background-image: url('../bg1.jpg');
+    background-size:cover;
+    background-position: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-top: 1rem; */
+    /* padding-top: 35px; */
+    color: white;
+}
+
+#home p{
+    /* margin:  10px; */
+    color: white;
+    font-size: min(1.6rem, 8vw);
+    text-align: center;
+    align-items: center;
+    /* padding: 1rem; */
+}
+
+p {
+    font-size: min(1.6rem, 8vw);
+    /* font-size: min; */
+}
+
+.h-primary-home{
+    font-size: min(3.8rem, 10vw);
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.h-primary{
+    font-size: min(3.8rem, 10vw);
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.h-secondary{
+    font-size: min(2.8rem, 9vw);
+    text-align: center;
+}
+/* Services */
+#services{
+    margin-top: 50px;
+}
+.services-div{
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.services-div .box{
+    margin-top: 5px;
+}
+
+/* Clients */
+
+/* Contact Us */
+/* Footer */
